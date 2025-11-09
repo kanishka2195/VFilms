@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Halant:wght@400&display=swap');
+@import "tailwindcss";
+.group9-image {
+    position: absolute;
+    width: 600.25px;
+    height: 400.64px;
+    top: 70px;
+    left: 80.96px;
+  
+    opacity: 1;
+    transform: rotate(0deg);
+    object-fit: contain;
+    z-index: 30; /* adjust if needed to layer correctly */
+  }
+  .group2-image {
+    position: absolute;
+  width: 447px;
+  height: 254px;
+  left: 800px;
+  top: 35%;
+  opacity: 1;
+  transform: rotate(0deg);
+  }
+  .FilmMaker {
+    position: absolute;
+    width: 129px;
+    height: 28px;
+    top: 133px;
+    left: 808px;
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  .VectorFilmMaker {
+    position: absolute;
+    width: 128.5px;
+    height: 80.75px;
+    top: 169px;
+    left: 870px;
+    opacity: 1;
+    transform: rotate(0deg); 
+  }
+
+  .ArtCurators {
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    top: 185px;
+    left: 1308px;
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  .VectorArt {
+    position: absolute;
+    width: 80.5px;
+    height: 75.75px;
+    top: 259px;
+    left: 1260px;
+    opacity: 1;
+    transform: rotate(0deg); 
+  }
+  
+  .IndiaGate {
+    position: absolute;
+    width: 350.25px;
+    height: 300.64px;
+    top: 430px;
+    left: 80.96px;
+  
+    opacity: 1;
+    transform: rotate(0deg);
+    object-fit: contain;
+    z-index: 30; /* adjust if needed to layer correctly */
+  }
+  .BrandingExperts {
+    position: absolute;
+    width: 180.25px;
+    height: 322.64px;
+    top: 385px;
+    left: 500.96px;
+  
+    opacity: 1;
+    transform: rotate(0deg);
+    object-fit: contain;
+    z-index: 30; /* adjust if needed to layer correctly */
+  }
+  .VectorBrand{
+    position: absolute;
+    width: 128.5px;
+    height: 180.75px;
+    top: 340px;
+    left: 620px;
+   
+    transform: rotate(0deg);
+  }
+
+  .TextAT {
+    position: absolute;
+  width: 647px;
+  height: 30px;
+  left: 780px;
+  top:550px;
+  opacity: 1;
+  transform: rotate(0deg);
+  }
+
+  .viewPortfolio {
+    position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 1080px;
+  top:600px;
+  opacity: 1;
+  transform: rotate(0deg);
+  }
+  
+  @keyframes scrollMove {
+    0% {
+      transform: translateX(0);
+      opacity: 0.8;
+    }
+    50% {
+      transform: translateX(60px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 0.8;
+    }
+    
+  }
+  .animate-scrollbar {
+    animation: scrollMove 2s infinite ease-in-out;
+  }

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Halant:wght@400&display=swap');
+
+/* Tagline font */
+.tagline {
+  font-family: 'Island Moments', cursive;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100%;
+  color: #0F3255;
+  text-align: right;
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.home-image {
+  width: 322px;
+  height: 63px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  align-self: flex-end;
+  position: relative;  /* Add this */
+  left: 190px;         /* Move left */
+}
+/* Paragraph styling */
+.story-para {
+  font-family: 'Halant', serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #0F3255;
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Prevent last sentence from breaking to new line */
+.nowrap {
+  white-space: nowrap;
+}
+
+/* Background texture */
+.bg-texture {
+  background-color: #fdd0c1;
+  border-radius: 80px;
+  mask-image: radial-gradient(
+    circle at 50% 50%,
+    rgba(0, 0, 0, 0.4) 20%,
+    transparent 100%
+  );
+  mix-blend-mode: multiply;
+}
+
+/* Scroll indicator animation */
+@keyframes scrollMove {
+  0% { transform: translateX(0); opacity: 0.8; }
+  50% { transform: translateX(20px); opacity: 1; }
+  100% { transform: translateX(0); opacity: 0.8; }
+}
+
+.animate-scrollbar {
+  animation: scrollMove 1.5s ease-out infinite;
+}

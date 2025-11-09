@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Halant:wght@400&display=swap');
+@import "tailwindcss";
+
+.button {
+    background: rgba(241, 93, 43, 1);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    max-width: 80px; /* limit maximum width */
+    white-space: nowrap; /* keep text in single line */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: relative; /* or absolute/fixed depending on context */
+    left: 200px; /* now it will move 800px from its normal position */
+  }
+  
